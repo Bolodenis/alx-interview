@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""Pascal Triangle Interview Challenge for Alx project conducted by Dr Marcus"""
+"""Pascal Triangle Interview Challenge for Alx project conducted by Denis"""
 
 
 def pascal_triangle(n):
@@ -23,5 +23,4 @@ def pascal_triangle(n):
                 row[j] = x + y
 
         pascal_triangle[i] = row
-
     return pascal_triangle
